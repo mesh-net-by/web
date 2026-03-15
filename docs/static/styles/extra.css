@@ -100,3 +100,11 @@ img {
 .md-header__title {
 	margin-left: 0 !important;
 }
+
+.md-header__topic {
+  display: none !important;
+}
+
+/* .md-ellipsis {
+    display: none !important;
+} */

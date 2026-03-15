@@ -1,5 +1,5 @@
 <h1>
-    <img src="/static/logo-no_badge_green.svg" alt="MeshNet" style="padding: 0 1rem; margin: 0 auto; width: 100%; max-height: 6rem;" />
+    <img src="/static/logo-no_badge_green.svg" alt="Логотип MeshNetBY" style="padding: 0 1rem; margin: 0 auto; width: 100%; max-height: 6rem;" />
 </h1>
 
 

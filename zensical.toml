@@ -11,14 +11,14 @@
 # The site_name is shown in the page header and the browser window title
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
-site_name = ""
+site_name = "MeshNetBY"
 
 # The site_description is included in the HTML head and should contain a
 # meaningful description of the site content for use by search engines.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_description
 # Read more: https://zensical.org/docs/setup/basics/#site_description
-site_description = "Mesh-Net BY — community-driven Meshtastic LoRa mesh network in Minsk and Belarus. Learn how to build nodes, configure radios, and join the decentralized communication network."
+site_description = "MeshNetBY — сообщество энтузиастов, создающее mesh-сеть на базе Meshtastic LoRa в Минске и Беларуси. Узнайте, как строить узлы, настраивать радиомодули и присоединяться к децентрализованной сети связи."
 # The site_author attribute. This is used in the HTML head element.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_author
