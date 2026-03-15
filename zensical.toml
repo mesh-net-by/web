@@ -18,7 +18,7 @@ site_name = "MeshNetBY"
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_description
 # Read more: https://zensical.org/docs/setup/basics/#site_description
-site_description = "MeshNetBY — сообщество энтузиастов, создающее mesh-сеть на базе Meshtastic LoRa в Минске и Беларуси. Узнайте, как строить узлы, настраивать радиомодули и присоединяться к децентрализованной сети связи."
+site_description = "MeshNetBY — сообщество энтузиастов mesh-сети на базе Meshtastic LoRa в Минске и Беларуси. Настрой узлы и присоединяйся к децентрализованной сети."
 # The site_author attribute. This is used in the HTML head element.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_author
