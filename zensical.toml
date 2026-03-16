@@ -337,3 +337,6 @@ alternate_style = true
 [project.markdown_extensions.md_in_html]
 [project.markdown_extensions.pymdownx.blocks.caption]
 
+[project.extra.analytics]
+provider = "google"
+property = "G-56FX0Y0S5B"
