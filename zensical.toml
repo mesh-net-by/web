@@ -18,7 +18,7 @@ site_name = "MeshNetBY"
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_description
 # Read more: https://zensical.org/docs/setup/basics/#site_description
-site_description = "MeshNetBY — сообщество mesh-сети на базе Meshtastic в Минске и Беларуси. Присоединяйся к mesh-сети."
+site_description = "MeshNetBY — сообщество mesh-сети на базе Meshtastic в Минске и Беларуси. Присоединяйся к нам."
 # The site_author attribute. This is used in the HTML head element.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_author
