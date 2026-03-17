@@ -2,7 +2,7 @@
     <img src="/static/logo-no_badge_green.svg" alt="Логотип MeshNetBY" style="padding: 0 1rem; margin: 0 auto; width: 100%; max-height: 6rem;" />
 </h1> -->
 
-# Сообщество Meshtastic в Республике Беларусь / Минск <br><br> ![Логотип MeshNetBY](/static/logo-no_badge_green.svg){ width="90%" }
+# Meshtastic в Республике Беларусь / Минск <br><br> ![Логотип MeshNetBY](/static/logo-no_badge_green.svg){ width="90%" }
 ---
 ## О проекте MeshNetBY
 Мы интересуемся автономными mesh-сетями и строим сеть на базе платформы [Meshtastic](https://meshtastic.org/) в городе Минск (РБ), которая использует недорогие LoRa-радиомодули для создания беспроводной сети с большой дальностью действия.
