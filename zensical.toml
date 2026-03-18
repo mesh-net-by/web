@@ -52,7 +52,9 @@ nav = [
    { "Главная" = "index.md" },
    { "Руководство" = [    
         "guides/start.md",
-        "guides/channels.md"
+        "guides/channels.md",
+        "guides/firmware.md",
+        "guides/ringtones.md"
     ]},
    { "Вопрос Ответ" = "faq.md" },
    { "Telegram группа" = "https://t.me/meshtastic_minsk_868"}
