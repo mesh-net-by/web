@@ -1,0 +1,235 @@
+{% extends "main.html" %}
+
+{% block htmltitle %}
+  <title>404 — Потеряно в mesh</title>
+{% endblock %}
+
+{% block styles %}
+  {{ super() }}
+  <style>
+    /* Сбрасываем отступы MkDocs на уровне всей страницы */
+    .md-content {
+      max-width: 100% !important;
+      width: 100% !important;
+      flex: 1 !important;
+    }
+
+    .md-main__inner {
+      margin: 0 !important;
+      padding: 0 !important;
+      max-width: 100% !important;
+      display: flex !important;
+      justify-content: center !important;
+    }
+    /* Убираем отступ который MkDocs добавляет под сайдбар */
+    .md-sidebar--primary {
+      display: none !important;
+    }
+
+    .md-sidebar--secondary {
+      display: none !important;
+    }
+
+    .md-main__inner {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+    /* Основной контейнер страницы */
+    .notfound-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 5% 5%;
+      position: relative;
+      overflow: hidden;
+      min-height: 80vh;
+      box-sizing: border-box;
+      width: 100%;
+    }
+
+    /* Мягкое свечение фона */
+    .glow {
+      position: absolute;
+      width: 700px;
+      height: 700px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(0,255,170,0.12), transparent 70%);
+      animation: pulse 6s infinite ease-in-out;
+    }
+
+    @keyframes pulse {
+      0%,100% { transform: scale(1); opacity:0.6 }
+      50% { transform: scale(1.3); opacity:1 }
+    }
+
+    /* Стиль текста 404 с glitch-анимацией */
+    .code {
+      font-size: 6rem;
+      font-weight: 800;
+      letter-spacing: 0.1em;
+      background: linear-gradient(90deg, #00ffa6, #00d4ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: glitch 1.5s infinite;
+    }
+
+    @keyframes glitch {
+      0% { transform: translate(0) }
+      20% { transform: translate(-2px, 2px) }
+      40% { transform: translate(-2px, -2px) }
+      60% { transform: translate(2px, 2px) }
+      80% { transform: translate(2px, -2px) }
+      100% { transform: translate(0) }
+    }
+
+    .subtitle { font-size: 1.5rem; margin-top: 1rem }
+
+    .desc {
+      max-width: 520px;
+      margin: 1.5rem auto;
+      color: var(--md-default-fg-color--light);
+    }
+
+    /* Стили кнопок */
+    .actions { display:flex; gap:1rem; flex-wrap:wrap; justify-content:center; margin-top:2rem }
+    .actions a.md-button.md-button--primary {
+      background-color: #67EA94; /* Цвет хэдера */
+      border-color: #67EA94;
+      color: #000000;
+    }
+
+    /* Canvas с точками mesh */
+    canvas.mesh {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      opacity: 0.6;
+    }
+
+    /* Центрируем контент-layer */
+    .content-layer {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      max-width: 1200px; /* ограничиваем контент для удобочитаемости */
+      margin: 0 auto;
+      padding: 0 1rem; /* одинаковые отступы слева и справа */
+    }
+  </style>
+{% endblock %}
+
+{% block content %}
+<div class="notfound-wrapper" id="meshWrapper">
+  <!-- Canvas для анимации сети -->
+  <canvas class="mesh" id="meshCanvas"></canvas>
+  <div class="glow"></div>
+
+  <div class="content-layer">
+    <div class="code">404</div>
+    <div class="subtitle">Узел не найден</div>
+
+    <p class="desc">
+      Пакет не дошёл до назначения. Возможно, страница была перемещена или никогда не существовала.
+    </p>
+
+    <!-- Кнопки действий -->
+    <div class="actions">
+      <a href="/" class="md-button md-button--primary">На главную</a>
+      <a href="javascript:history.back()" class="md-button">Назад</a>
+    </div>
+
+    <div style="margin-top:3rem; opacity:0.5; font-size:0.9rem;">
+      Mesh жив. Просто этот маршрут — нет.
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  <script>
+    // Инициализация canvas и контекста
+    const canvas = document.getElementById('meshCanvas');
+    const wrapper = document.getElementById('meshWrapper');
+    const ctx = canvas.getContext('2d');
+
+    let nodes = [];
+    const NODE_COUNT = 80; // Количество точек
+
+    // Подгоняем canvas под размер контейнера при загрузке и изменении окна
+    function resize() {
+      canvas.width = wrapper.offsetWidth;
+      canvas.height = wrapper.offsetHeight;
+    }
+    window.addEventListener('resize', resize);
+    resize(); // стартовое подстраивание
+
+    // Создаем ноды с разным количеством соединений
+    for (let i = 0; i < NODE_COUNT; i++) {
+      nodes.push({
+        x: Math.random() * canvas.width,
+        y: Math.random() * canvas.height,
+        vx: (Math.random() - 0.5) * 0.3,
+        vy: (Math.random() - 0.5) * 0.3,
+        connections: Math.floor(Math.random() * 5) + 10 // от 10 до 14 соединений
+      });
+    }
+
+    function draw() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+      // Рисуем соединения по принципу mesh (не полный граф)
+      for (let i = 0; i < nodes.length; i++) {
+        let distances = [];
+        for (let j = 0; j < nodes.length; j++) {
+          if (i === j) continue;
+          const dx = nodes[i].x - nodes[j].x;
+          const dy = nodes[i].y - nodes[j].y;
+          const dist = Math.sqrt(dx * dx + dy * dy);
+          distances.push({ index: j, dist });
+        }
+        distances.sort((a, b) => a.dist - b.dist);
+        for (let k = 0; k < nodes[i].connections; k++) {
+          const target = nodes[distances[k].index];
+          const dx = nodes[i].x - target.x;
+          const dy = nodes[i].y - target.y;
+          const dist = Math.sqrt(dx * dx + dy * dy);
+          const alpha = Math.max(0.1, 1 - dist / 250);
+          ctx.strokeStyle = 'rgba(0,255,170,' + alpha + ')';
+          ctx.lineWidth = 1.2;
+          ctx.beginPath();
+          ctx.moveTo(nodes[i].x, nodes[i].y);
+          ctx.lineTo(target.x, target.y);
+          ctx.stroke();
+        }
+      }
+
+      // Рисуем сами точки
+      for (let n of nodes) {
+        ctx.fillStyle = '#00ffa6';
+        ctx.beginPath();
+        ctx.arc(n.x, n.y, 4.5, 0, Math.PI * 2);
+        ctx.fill();
+        n.x += n.vx;
+        n.y += n.vy;
+        if (n.x < 0 || n.x > canvas.width) n.vx *= -1;
+        if (n.y < 0 || n.y > canvas.height) n.vy *= -1;
+      }
+
+      requestAnimationFrame(draw);
+    }
+
+    // Запуск анимации
+    draw();
+  </script>
+{% endblock %}
