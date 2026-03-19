@@ -1,7 +1,3 @@
-<!-- <h1>
-    <img src="/static/logo-no_badge_green.svg" alt="Логотип MeshNetBY" style="padding: 0 1rem; margin: 0 auto; width: 100%; max-height: 6rem;" />
-</h1> -->
-
 # Meshtastic в Республике Беларусь / Минск <br><br> ![Логотип MeshNetBY](/static/logo-no_badge_green.svg){ width="90%" }
 ---
 ## О проекте MeshNetBY
