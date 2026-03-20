@@ -53,6 +53,7 @@ nav = [
    { "Руководство" = [    
         "guides/start.md",
         "guides/channels.md",
+        "guides/mqtt.md",
         "guides/backups.md",
         "guides/firmware.md",
         "guides/ringtones.md"
