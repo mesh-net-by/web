@@ -58,6 +58,7 @@ nav = [
         "guides/firmware.md",
         "guides/ringtones.md"
     ]},
+   { "Карта" = "map.md" },
    { "Вопрос Ответ" = "faq.md" },
    { "Telegram группа" = "https://t.me/+urWsU1L2NDk2YzIy"}
    ]
