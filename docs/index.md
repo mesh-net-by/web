@@ -18,5 +18,10 @@
 - **Meshtastic Minsk [868 MHz]** [Telegram](https://t.me/+urWsU1L2NDk2YzIy) переходите по ссылке и присоединяйтесь к обсуждению.  
 Используйте QR-код ниже, чтобы быстро найти наш Telegram-канал и присоединиться к сообществу!
 
-    ![Логотип Telegram MeshNetBY](static/tg-logo.webp){ width="300" } ![QR код Telegram MeshNetBY](static/qr/telegram-whiteback-invite.webp){ width="300" }
+    ![Логотип Telegram MeshNetBY](static/tg-logo.webp){ width="300" } ![QR код Telegram MeshNetBY](static/qr/tg-minsk.webp){ width="300" }
+
+- **Meshtastic Brest [868 MHz]** [Telegram](https://t.me/meshtastic_brest_868) переходите по ссылке и присоединяйтесь к обсуждению в городе Брест.  
+Используйте QR-код ниже, чтобы быстро найти Telegram-канал наших друзей и присоединиться к сообществу!
+
+    ![Логотип Telegram MeshNetBY](static/tg-logo-brest.webp){ width="300" } ![QR код Telegram MeshNetBY](static/qr/tg-brest.webp){ width="300" }
 
