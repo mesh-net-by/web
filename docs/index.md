@@ -18,15 +18,32 @@
 ---
 ### Telegram
 
-Приходите пообщаться с нами! Мы активны в Telegram и всегда рады новым участникам:
+Присоединяйтесь к Telegram-сообществам **Meshtastic Belarus (868 MHz)**. Выберите ближайший город, перейдите по ссылке или отсканируйте QR-код.
 
-- **Meshtastic Minsk (868 MHz)** [Telegram](https://t.me/+urWsU1L2NDk2YzIy) переходите по ссылке и присоединяйтесь к обсуждению.  
+| Город | Telegram | Логотип | QR-код |
+|:------|:---------|:-------:|:------:|
+| **Минск (Minsk)** | [Meshtastic Minsk (868 MHz)](https://t.me/+urWsU1L2NDk2YzIy) | ![Логотип Meshtastic Minsk](static/tg-logo.webp){ width="220" } | ![QR-код Telegram Meshtastic Minsk](static/qr/tg-minsk.webp){ width="190" } |
+| **Брест (Brest)** | [Meshtastic Brest (868 MHz)](https://t.me/meshtastic_brest_868) | ![Логотип Meshtastic Brest](static/tg-logo-brest.webp){ width="220" } | ![QR-код Telegram Meshtastic Brest](static/qr/tg-brest.webp){ width="190" } |
+| **Гомель (Gomel)** | [Meshtastic Gomel (868 MHz)](https://t.me/meshtastic_gomel) | ![Логотип Meshtastic Gomel](static/tg-logo-gomel.webp){ width="220" } | ![QR-код Telegram Meshtastic Gomel](static/qr/tg-gomel.webp){ width="190" } |
+| **Витебск (Vitebsk)** | [Meshtastic Vitebsk (868 MHz)](https://t.me/meshtastic_vitebsk) | ![Логотип Meshtastic Vitebsk](static/tg-logo-vitebsk.webp){ width="220" } | ![QR-код Telegram Meshtastic Vitebsk](static/qr/tg-vitebsk.webp){ width="190" } |
+
+<!-- - **Meshtastic Минск - Minsk (868 MHz)** [Telegram](https://t.me/+urWsU1L2NDk2YzIy) переходите по ссылке и присоединяйтесь к обсуждению.  
 Используйте QR-код ниже, чтобы быстро найти наш Telegram-канал и присоединиться к сообществу!
 
     ![Логотип Telegram MeshNetBY](static/tg-logo.webp){ width="300" } ![QR код Telegram MeshNetBY](static/qr/tg-minsk.webp){ width="300" }
 
-- **Meshtastic Brest (868 MHz)** [Telegram](https://t.me/meshtastic_brest_868) переходите по ссылке и присоединяйтесь к обсуждению в городе Брест.  
+- **Meshtastic Брест - Brest (868 MHz)** [Telegram](https://t.me/meshtastic_brest_868) переходите по ссылке и присоединяйтесь к обсуждению в городе Брест.  
 Используйте QR-код ниже, чтобы быстро найти Telegram-канал наших друзей и присоединиться к сообществу!
 
     ![Логотип Telegram MeshNetBY](static/tg-logo-brest.webp){ width="300" } ![QR код Telegram MeshNetBY](static/qr/tg-brest.webp){ width="300" }
 
+- **Meshtastic Гомель - Gomel (868 MHz)** [Telegram](https://t.me/meshtastic_gomel) переходите по ссылке и присоединяйтесь к обсуждению в городе Gomel.  
+Используйте QR-код ниже, чтобы быстро найти Telegram-канал наших друзей и присоединиться к сообществу!
+
+    ![Логотип Telegram MeshNetBY](static/tg-logo-gomel.webp){ width="300" } ![QR код Telegram MeshNetBY](static/qr/tg-gomel.webp){ width="300" }
+
+- **Meshtastic Витебск - Vitebsk (868 MHz)** [Telegram](https://t.me/meshtastic_vitebsk) переходите по ссылке и присоединяйтесь к обсуждению в городе Vitebsk.  
+Используйте QR-код ниже, чтобы быстро найти Telegram-канал наших друзей и присоединиться к сообществу!
+
+    ![Логотип Telegram MeshNetBY](static/tg-logo-vitebsk.webp){ width="300" } ![QR код Telegram MeshNetBY](static/qr/tg-vitebsk.webp){ width="300" }
+ -->
