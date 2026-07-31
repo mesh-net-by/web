@@ -22,16 +22,16 @@
 
 | Город | Telegram | Логотип | QR-код |
 |:------|:---------|:-------:|:------:|
-| **Минск (Minsk)** | [Meshtastic Minsk (868 MHz)](https://t.me/+urWsU1L2NDk2YzIy) | ![Логотип Meshtastic Minsk](static/tg-logo.webp){ width="220" } | ![QR-код Telegram Meshtastic Minsk](static/qr/tg-minsk.webp){ width="220" } |
-| **Брест (Brest)** | [Meshtastic Brest (868 MHz)](https://t.me/meshtastic_brest_868) | ![Логотип Meshtastic Brest](static/tg-logo-brest.webp){ width="220" } | ![QR-код Telegram Meshtastic Brest](static/qr/tg-brest.webp){ width="220" } |
-| **Гомель (Gomel)** | [Meshtastic Gomel (868 MHz)](https://t.me/meshtastic_gomel) | ![Логотип Meshtastic Gomel](static/tg-logo-gomel.webp){ width="220" } | ![QR-код Telegram Meshtastic Gomel](static/qr/tg-gomel.webp){ width="220" } |
-| **Витебск (Vitebsk)** | [Meshtastic Vitebsk (868 MHz)](https://t.me/meshtastic_vitebsk) | ![Логотип Meshtastic Vitebsk](static/tg-logo-vitebsk.webp){ width="220" } | ![QR-код Telegram Meshtastic Vitebsk](static/qr/tg-vitebsk.webp){ width="220" } |
+| **Минск (Minsk)** | [Meshtastic Minsk (868 MHz)](https://t.me/+urWsU1L2NDk2YzIy) | ![Логотип Meshtastic Minsk](static/tg-logo.webp){ width="160" } | ![QR-код Telegram Meshtastic Minsk](static/qr/tg-minsk.webp){ width="160" } |
+| **Брест (Brest)** | [Meshtastic Brest (868 MHz)](https://t.me/meshtastic_brest_868) | ![Логотип Meshtastic Brest](static/tg-logo-brest.webp){ width="160" } | ![QR-код Telegram Meshtastic Brest](static/qr/tg-brest.webp){ width="160" } |
+| **Гомель (Gomel)** | [Meshtastic Gomel (868 MHz)](https://t.me/meshtastic_gomel) | ![Логотип Meshtastic Gomel](static/tg-logo-gomel.webp){ width="160" } | ![QR-код Telegram Meshtastic Gomel](static/qr/tg-gomel.webp){ width="160" } |
+| **Витебск (Vitebsk)** | [Meshtastic Vitebsk (868 MHz)](https://t.me/meshtastic_vitebsk) | ![Логотип Meshtastic Vitebsk](static/tg-logo-vitebsk.webp){ width="160" } | ![QR-код Telegram Meshtastic Vitebsk](static/qr/tg-vitebsk.webp){ width="160" } |
 
 #### Сообщества в других городах
 
 | Область | Город | Telegram | Логотип | QR-код |
 |:---------|:------|:---------|:-------:|:------:|
-| **Могилёвская** | **Бобруйск (Bobruysk)** | [Meshtastic Bobruysk (868 MHz)](https://t.me/+0giFPCx4_4xiMTQ6) | ![Логотип Meshtastic Bobruysk](static/tg-logo-bobruysk.webp){ width="220" } | ![QR-код Telegram Bobruysk](static/qr/tg-bobruysk.webp){ width="220" } |
+| **Могилёвская** | **Бобруйск (Bobruysk)** | [Meshtastic Bobruysk (868 MHz)](https://t.me/+0giFPCx4_4xiMTQ6) | ![Логотип Meshtastic Bobruysk](static/tg-logo-bobruysk.webp){ width="160" } | ![QR-код Telegram Bobruysk](static/qr/tg-bobruysk.webp){ width="160" } |
 
 
 <!-- - **Meshtastic Минск - Minsk (868 MHz)** [Telegram](https://t.me/+urWsU1L2NDk2YzIy) переходите по ссылке и присоединяйтесь к обсуждению.  
