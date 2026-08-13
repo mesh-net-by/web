@@ -6,8 +6,18 @@ hide:
 
 # Карта 
 
-## Карта сети Mesh-Net.by в Минске
-Доступна по адресу карта [MeshNet BY Минск](https://map.mesh-net.by), а также в виде виджета ниже.
+## Карта MeshCore сети
+
+Сеть MeshCore отображается на карте **[MeshCoreTel](https://meshcoretel.io/en/MSQ/map)**.
+
+**Открыть карту MeshCore:** [meshcoretel.io/en/MSQ/map](https://meshcoretel.io/en/MSQ/map)
+
+
+---
+
+## Карта Meshtastic сети в Минске
+
+Доступна по адресу [MeshNet BY Минск](https://map.mesh-net.by), а также в виде виджета ниже.
 
 ---
 <style>
