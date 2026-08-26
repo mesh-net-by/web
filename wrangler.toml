@@ -1,4 +1,4 @@
-name = "mesh-net.by"
+name = "mesh-net-by"
 compatibility_date = "2026-08-26"
 [assets]
 directory = "./site"
