@@ -60,6 +60,7 @@ nav = [
     ]},
    { "MeshCore" = [
         "meshcore/meshcore.md",
+        "meshcore/regions-scopes.md",
         "meshcore/faq.md"
     ]},
    { "DIY" = [

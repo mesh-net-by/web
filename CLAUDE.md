@@ -33,6 +33,7 @@ web/
    - start.md, channels.md, mqtt.md, backups.md, firmware.md, ringtones.md
 3. **MeshCore** (раздел)
    - meshcore.md (основное руководство)
+   - regions-scopes.md (настройка регионов и зон)
    - faq.md (FAQ специфичный для MeshCore)
 4. **DIY** (раздел)
    - start.md, boards.md, antennas.md, power.md

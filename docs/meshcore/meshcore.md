@@ -117,9 +117,8 @@
 - [Flasher](https://flasher.meshcore.io/)
 - [Веб-приложение](https://app.meshcore.nz/)
 - [Config](https://config.meshcore.io/)
-- [Карта MeshCore](https://map.meshcore.io/)
+- [Карта MeshCoreTel](https://meshcoretel.io/en/MSQ/map)
 - [Документация](https://docs.meshcore.io/)
 - [FAQ](https://docs.meshcore.io/faq/)
 - [CLI](https://docs.meshcore.io/cli_commands)
 - [GitHub](https://github.com/meshcore-dev/MeshCore)
-- [Мастер настройки Regions & Scopes](https://script.google.com/macros/s/AKfycbzkfVERjCyLByiAKpyLwbyxAnIPMJkYJ7vIUeZ9_cPUMQx9Y_9WHDqCDy6YM8a_8eQP9w/exec) — выбор региона, устройства и прошивки с готовыми командами
