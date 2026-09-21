@@ -62,19 +62,6 @@ region save
 !!! warning "Важно"
     Команда `region allowf *` не ломает regions, а сохраняет совместимость со старыми сообщениями без scope на период миграции сети.
 
-### Альтернативный вариант через `region put`
-
-То же дерево regions, но через отдельные команды. Полезно для совместимости и ручной проверки:
-
-```bash
-region allowf *
-region put by
-region put minsk by
-region allowf by
-region allowf minsk
-region save
-```
-
 ---
 
 ## Настройка Companion (клиент)
